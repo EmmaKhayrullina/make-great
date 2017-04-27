@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="683" height="238" viewBox="0 0 683 238">
+    <g fill="#FFF" fill-opacity=".15" fill-rule="evenodd">
+        <g transform="translate(432)">
+            <rect width="152" height="14" y="28" rx="7"/>
+            <rect width="170" height="14" x="10" y="84" rx="7"/>
+            <rect width="140" height="14" x="10" y="112" rx="7"/>
+            <rect width="24" height="14" x="158" y="28" rx="7"/>
+            <rect width="40" height="14" x="211" y="56" rx="7"/>
+            <rect width="97" height="14" x="11" rx="7"/>
+            <rect width="183" height="14" x="20" y="56" rx="7"/>
+            <path d="M84 42h50a7 7 0 0 0 0 14H84a7 7 0 0 0 0-14zM25 70h54a7 7 0 0 0 0 14H25a7 7 0 0 0 0-14zM61 98h38a7 7 0 0 0 0 14H61a7 7 0 0 0 0-14z"/>
+        </g>
+        <g transform="translate(0 140)">
+            <rect width="197" height="14" x="93" y="28" rx="7"/>
+            <rect width="85" height="14" y="28" rx="7"/>
+            <rect width="197" height="14" x="61" y="56" rx="7"/>
+            <rect width="197" height="14" x="138" y="84" rx="7"/>
+            <rect width="197" height="14" x="142" rx="7"/>
+            <rect width="24" height="14" x="110" rx="7"/>
+            <path d="M112 42h57a7 7 0 0 0 0 14h-57a7 7 0 0 0 0-14zM182 70h71a7 7 0 0 0 0 14h-71a7 7 0 0 0 0-14zM175 14h48a7 7 0 0 0 0 14h-48a7 7 0 0 0 0-14z"/>
+        </g>
+    </g>
+</svg>

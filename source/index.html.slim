@@ -1,0 +1,72 @@
+---
+title: Make Great
+---
+
+body
+  .content
+    header.header
+      a.header__logo.js-anchor(href="#main")
+        == image_tag "logo.svg", class: "header-logo__img"
+
+      == partial "partials/nav"
+
+      .header__buttons
+        a.header__link(href="#") Sign in
+        a.button.button--white(href="#") Sign up
+
+    .section.section--main#main
+      .section__inner
+        .section__left
+          h1.section__title
+            | Incredible tools for
+            br making your bot great
+          p.section__text
+            | Test your bot, annotate conversations, generate training data and more
+          a.button.button--blue(href="#") Start now for free
+        .section__right
+          .section__phone
+            video.section__video(src="" width="234" height="417" autoplay loop)
+
+    .section.section--white#features
+      .section__inner
+        == partial "partials/features_steps"
+
+    .section.section--grey#work
+      .section__inner
+        h2.section__subtitle How it works
+        .tabs
+          a.tabs__item.tabs__item--active(href="#") Testing
+          a.tabs__item(href="#") Annotation & Training
+
+        == partial "partials/works_steps"
+
+    .section.section--white#integrations
+      .section__inner
+        h2.section__subtitle Integrations
+
+        == partial "partials/integrations_list"
+
+    .section.section--black#developers_first
+      .section__inner
+        h2.section__subtitle Developers first
+        .section__text.section__text--small Avoid the steep learning curve and quickly add B2C messaging to your app by combining our simple API modules built for scale and high-availability.
+
+        .section__code
+          == partial "partials/code_list"
+          == image_tag "", class: "section__code-img"
+
+    .section.section--grey#pricing
+      .section__inner
+        h2.section__subtitle Pricing
+        .section__text.section__text
+          | You decide how much to pay workers for each task,
+          span.section__text-selection usually $0.10 – $0.50 per task.
+          | We take 20% fee on the reward and bonus amount.
+
+        h4.section__subtitle.section__subtitle--small Let's get started!
+        .section__buttons
+          a.button.button--blue(href="#") Create account
+          a.button.button--white(href="#") Contact us
+
+    footer.footer
+      == partial "partials/footer"

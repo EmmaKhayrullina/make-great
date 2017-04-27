@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="44" viewBox="0 0 94 44">
+  <g fill="none" fill-rule="evenodd">
+    <text fill="#FFF" font-family="ProximaNova-Extrabld, Proxima Nova" font-size="24" font-weight="600" transform="translate(0 -1)">
+      <tspan x="0" y="28">MAKE</tspan> <tspan x="0" y="50">GREAT</tspan>
+    </text>
+    <path fill="#FFF" d="M94 3.01A3.005 3.005 0 0 0 90.999 0H75A3 3 0 0 0 72 3.001V20.01c0 1.1.63 1.36 1.414.577L78 16h12.99A3.003 3.003 0 0 0 94 12.99V3.01z"/>
+    <text fill="#3C7EF4" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13" font-weight="bold" transform="translate(0 -1)">
+      <tspan x="75" y="13">.ai</tspan>
+    </text>
+  </g>
+</svg>
