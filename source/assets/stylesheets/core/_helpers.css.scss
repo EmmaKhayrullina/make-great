@@ -1,5 +1,15 @@
-// core/helpers contains
-// * Extends
-// * Functions
-// * Mixins
-// * Keyframe Animations
+%line {
+  position: absolute;
+  bottom: -100px;
+  left: -10%;
+  z-index: 5;
+
+  display: block;
+  width: 120%;
+  height: 250px;
+  content: "";
+
+  transform: rotate(3deg);
+
+  background: $color-white;
+}

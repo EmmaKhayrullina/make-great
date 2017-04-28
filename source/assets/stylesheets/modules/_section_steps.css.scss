@@ -1,0 +1,10 @@
+.section-steps {
+  padding-top: 0;
+  padding-bottom: 100px;
+
+  &:after {
+    @extend %line;
+
+    bottom: -250px;
+  }
+}

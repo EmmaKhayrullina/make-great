@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131" height="92" viewBox="0 0 131 92">
+    <defs>
+        <path id="a" d="M45.99 7.5h28.019v119H45.99z"/>
+        <mask id="b" width="28.019" height="119" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(33.622 12.766)">
+            <rect width="37.962" height="8.499" fill="#CDD8DC" rx="4.249"/>
+            <ellipse cx="43.344" cy="4.249" fill="#8EB0C2" rx="4.249" ry="4.249"/>
+        </g>
+        <g transform="translate(33.622 50.01)">
+            <rect width="37.962" height="8.499" fill="#CDD8DC" rx="4.249"/>
+            <ellipse cx="43.344" cy="4.249" fill="#8EB0C2" rx="4.249" ry="4.249"/>
+        </g>
+        <circle cx="4.249" cy="4.249" r="4.249" fill="#FFCF6E" transform="translate(15 .565)"/>
+        <rect width="48.161" height="8.499" fill="#E7EEF5" rx="4.249" transform="translate(24.632 .565)"/>
+        <g>
+            <ellipse cx="4.249" cy="4.249" fill="#FFCF6E" rx="4.249" ry="4.249" transform="translate(15 25.288)"/>
+            <rect width="48.161" height="8.499" fill="#E7EEF5" rx="4.249" transform="translate(24.632 25.288)"/>
+        </g>
+        <g>
+            <ellipse cx="4.249" cy="4.249" fill="#FFCF6E" rx="4.249" ry="4.249" transform="translate(15 37.81)"/>
+            <rect width="48.161" height="8.499" fill="#E7EEF5" rx="4.249" transform="translate(24.632 37.81)"/>
+        </g>
+        <g fill="#00A1FA" transform="translate(93 1)">
+            <rect width="31.817" height="4.544" rx="2.272"/>
+            <rect width="31.817" height="4.544" y="9.988" rx="2.272"/>
+            <path d="M0 23.031a2.27 2.27 0 0 1 2.27-2.272h13.38a2.265 2.265 0 0 1 2.27 2.272 2.27 2.27 0 0 1-2.27 2.272H2.27A2.265 2.265 0 0 1 0 23.031z"/>
+        </g>
+        <use stroke="#D5E1E8" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" mask="url(#b)" transform="rotate(90 60 67)" xlink:href="#a"/>
+        <circle cx="108" cy="68" r="23" fill="#FFF"/>
+        <g stroke="#2AA1FE" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke-width="6" d="M109.057 54.738V78"/>
+            <path stroke-width="5" d="M123 89.5H95.057"/>
+            <path stroke-width="6" d="M96 70.783L109.217 84l13.223-13.223"/>
+        </g>
+    </g>
+</svg>

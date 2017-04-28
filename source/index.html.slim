@@ -14,48 +14,57 @@ body
         a.header__link(href="#") Sign in
         a.button.button--white(href="#") Sign up
 
-    .section.section--main#main
+    .section.section-main#main
       .section__inner
-        .section__left
+        .section-main__left
           h1.section__title
             | Incredible tools for
             br making your bot great
           p.section__text
             | Test your bot, annotate conversations, generate training data and more
           a.button.button--blue(href="#") Start now for free
-        .section__right
-          .section__phone
-            video.section__video(src="" width="234" height="417" autoplay loop)
+        .section-main__right
+          .phone
+            .phone__inner
+              video class="video" muted="muted" preload="auto" loop="true" autoplay="true" width="234" height="417"
+                source type="video/mp4" src="/assets/video/chat_with_bot.mp4"
+                source type="video/webm" src="/assets/video/chat_with_bot.webm"
+                source type="video/ogg" src="/assets/video/chat_with_bot.ogv"
+                | Your browser does not support the HTML5 video tag. Try updating your browser or using a different one.
 
-    .section.section--white#features
+    .section.section-steps#steps
       .section__inner
-        == partial "partials/features_steps"
+        == partial "partials/steps"
 
-    .section.section--grey#work
+    .section.section-work.section--column#work
       .section__inner
         h2.section__subtitle How it works
-        .tabs
-          a.tabs__item.tabs__item--active(href="#") Testing
-          a.tabs__item(href="#") Annotation & Training
+        ul.tabs
+          li.tabs__item
+            input.tabs__input#testing_tab name="tab" type="radio" checked="checked"
+            label.tabs__label for="testing_tab" Testing
+            == partial "partials/works_testing_steps"
+          li.tabs__item
+            input.tabs__input#training_tab name="tab" type="radio"
+            label.tabs__label for="training_tab" Annotation & Training
+            == partial "partials/works_training_steps"
 
-        == partial "partials/works_steps"
 
-    .section.section--white#integrations
+    .section.section-integrations.section--column#integrations
       .section__inner
         h2.section__subtitle Integrations
 
         == partial "partials/integrations_list"
 
-    .section.section--black#developers_first
+    .section.section-developers.section--column#developers_first
       .section__inner
         h2.section__subtitle Developers first
-        .section__text.section__text--small Avoid the steep learning curve and quickly add B2C messaging to your app by combining our simple API modules built for scale and high-availability.
+        .section__text.section__text--white.section__text--small Avoid the steep learning curve and quickly add B2C messaging to your app by combining our simple API modules built for scale and high-availability.
 
-        .section__code
-          == partial "partials/code_list"
-          == image_tag "", class: "section__code-img"
+        .section-developers__inner
+          == partial "partials/developers_code"
 
-    .section.section--grey#pricing
+    .section.section-pricing.section--column#pricing
       .section__inner
         h2.section__subtitle Pricing
         .section__text.section__text

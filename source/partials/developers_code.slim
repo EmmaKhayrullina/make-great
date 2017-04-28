@@ -1,0 +1,67 @@
+.section-developers__code
+  .section-developers__code-title
+    | Connecting a new bot
+
+  .section-developers__code-wrapper
+    == partial "partials/developers_code_list"
+
+    pre.code
+      span.code__row
+        |  1 {
+      span.code__row.code__row--blue
+        |  2    "trigger" : message:appUser",
+      span.code__row
+        |  3       "app" : {
+           4        "id" : "5698edbf2a43bd081be982f1"
+           5    },
+           6    "messages" : [{
+           7          "authorId" : "5698edbf2a43bd081be982f1",
+      span.code__row.code__row--violet
+        |  8          "text" : "I love your new messaging feature!",
+      span.code__row
+        |  9          "role" : "appUser",
+          10          "name" : "Alexia",
+          11         "received" : 1444348338.704
+      span.code__row.code__row--violet-light
+        | 12         "actions" : [],
+      span.code__row
+        | 13         "_id" : "55c8c1498590aa1900b9b9b1",
+      span.code__row.code__row--pink
+        | 14         "source" : {
+          15             "type" : "viber"
+          16             "id" : "64+EgmmtYyL5DIyqLtWicg=="
+          17         }
+      span.code__row
+        | 18     }],
+          19     "appUser": {
+          20         "_id" : "c7f6e6dc6c3a637261bd9656f",
+          21         "userId" : "john@example.com",
+      span.code__row.code__row--blue
+        | 22         "properties" : {
+          23             "paid" : true,
+          24             "subscriptionDate" : "2016-11-22T16:03:56.830Z"
+          25         },
+      span.code__row
+        | 26         "signedUpAt" : "2015-10-06T03:38:02.346Z",
+      span.code__row.code__row--violet
+        | 27         "clients" : [{
+          28             "id" : "49917bf1-4f76-4cf3-a12b-adf72349b00f",
+          29             "displayName" : "Alexia Milton",
+          30             "platform" : "viber",
+          31             "lastSeen" : "2016-11-21T22:25:59.474Z",
+      span.code__row
+        | 32         }, {
+          33             "id" : "bf29c884-6379-4b37-90cf-f7891799b9fe",
+          34             "displayName" : "+1 514-962-2529",
+          35             "platform" : "twilio",
+          36             "linkedAt" : "2016-08-29T15:13:13.630Z",
+          37             "lastSeen" : "2016-11-14T22:15:20.908Z",
+      span.code__row.code__row--pink
+        | 38             "info" : {
+          39                 "state" : "QC",
+          40                 "city" : "MONTREAL",
+          41                 "country" : "CA",
+      span.code__row.code__row--pink
+        | 43         }]
+          44     }
+          45 }

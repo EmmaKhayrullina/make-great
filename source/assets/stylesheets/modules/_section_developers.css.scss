@@ -1,0 +1,52 @@
+.section-developers {
+  position: relative;
+  min-height: 1100px;
+
+  background: $color-black image-url("vawes-grey.svg") no-repeat left 90%;
+
+  &:before,
+  &:after {
+    @extend %line;
+    background: $color-black;
+  }
+
+  &:before {
+    top: -50px;
+  }
+
+  &__inner {
+    position: relative;
+  }
+
+  &__code-wrapper {
+    position: relative;
+  }
+
+  &__code {
+    position: absolute;
+    top: -130px;
+    right: 0;
+
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background: $color-white;
+
+    font-weight: normal;
+  }
+
+  &__code-title {
+    padding: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $color-white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: $color-black--ligth;
+  }
+
+  .section__text {
+    margin-bottom: 80px;
+  }
+}

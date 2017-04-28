@@ -1,0 +1,32 @@
+.section-main {
+  position: relative;
+
+  min-height: 85vh;
+  padding: 80px 0;
+
+  background: $gradient;
+
+  overflow: hidden;
+
+  .section__text {
+    color: $color-white;
+
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  &:after {
+    @extend %line;
+  }
+
+  &__left {
+    width: 45%;
+    padding-top: 50px;
+  }
+
+  &__right {
+    position: relative;
+
+    width: 55%;
+  }
+}

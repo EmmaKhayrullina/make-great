@@ -1,0 +1,25 @@
+.social {
+  &__link {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 25px;
+
+    text-decoration: none;
+
+    color: $color-grey--dark;
+
+    font-size: 0.875rem;
+
+    &--twitter {
+      background: image-url("social/twitter.svg") no-repeat left center;
+    }
+
+    &--git {
+      background: image-url("social/git.svg") no-repeat left center;
+    }
+
+    &--facebook {
+      background: image-url("social/facebook.svg") no-repeat left center;
+    }
+  }
+}

@@ -5,7 +5,7 @@
   &__item {
     position: relative;
 
-    width: 27%;
+    width: 26%;
     padding: 25px;
 
     border-radius: 3px;
@@ -18,7 +18,7 @@
     }
 
     &:first-child .work-steps__item-icon {
-      margin: 50px auto 0;
+      margin: 20px auto 0;
     }
 
     &:not(:first-child) {
@@ -34,7 +34,7 @@
     }
 
     &:last-child {
-      width: 21%;
+      width: 22%;
       height: 210px;
 
       &:before,

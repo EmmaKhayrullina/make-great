@@ -1,0 +1,21 @@
+.phone {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  z-index: 10;
+
+  width: 100%;
+
+  background: image-url("vawes-blue.svg") center no-repeat;
+  background-size: contain;
+
+  &__inner {
+    max-width: 276px;
+    height: 555px;
+    margin: 0 auto;
+    padding: 60px 10px 10px 20px;
+
+    background: image-url("phone.png") center no-repeat;
+    background-size: 276px 555px;
+  }
+}

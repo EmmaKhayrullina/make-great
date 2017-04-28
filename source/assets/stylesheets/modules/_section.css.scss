@@ -2,66 +2,19 @@
   padding: 80px 20px;
 
   &__inner {
+    position: relative;
+    z-index: 50;
+
     display: flex;
 
     max-width: $screen-xl;
     margin: 0 auto;
   }
 
-  &--main {
-    position: relative;
-
-    min-height: 100vh;
-    padding: 80px 0;
-
-    background: $gradient;
-
-    .section__text {
-      color: $color-white;
-
-      font-size: 1.25rem;
-      line-height: 1.875rem;
-    }
-
-    // &:after {
-    //   position: absolute;
-    //   bottom: -100px;
-    //   left: -10%;
-    //   z-index: 5;
-    //
-    //   display: block;
-    //   width: 120%;
-    //   height: 250px;
-    //   content: "";
-    //
-    //   transform: rotate(4deg);
-    //
-    //   background: $color-white;
-    // }
-  }
-
-  &--white {
-    background: $color-white;
-  }
-
-  &--grey {
-    background: $color-grey;
-
+  &--column {
     .section__inner {
       flex-direction: column;
     }
-  }
-
-  &--black {
-    background: $color-black;
-  }
-
-  &__left {
-    width: 50%;
-  }
-
-  &__right {
-    width: 50%;
   }
 
   &__title {
@@ -79,6 +32,14 @@
     color: $color-main;
 
     font-size: 2.25rem;
+
+    &--small {
+      margin-bottom: 25px;
+
+      color: initial;
+
+      font-size: 1.5em;
+    }
   }
 
   &__text {
@@ -86,5 +47,26 @@
     max-width: 450px;
     margin: 0;
     margin-bottom: 40px;
+
+    line-height: 1.5;
+
+    &--white {
+      color: $color-white;
+    }
+
+    span {
+      padding: 0 5px;
+
+      background: $color-selection;
+    }
+  }
+
+  &__buttons .button {
+    min-width: 235px;
+    padding: 15px 25px;
+
+    &:first-child {
+      margin-right: 30px;
+    }
   }
 }

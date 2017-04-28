@@ -1,0 +1,50 @@
+.section-developers {
+  &__code-list {
+    position: absolute;
+    top: 40px;
+    left: -335px;
+
+    max-width: 350px;
+    padding-right: 70px;
+
+    font-size: 0.875rem;
+  }
+
+  &__code-item {
+    text-align: right;
+
+    line-height: 1.25rem;
+
+    &:first-child {
+      margin-bottom: 80px;
+    }
+
+    &:nth-child(2) {
+      margin-bottom: 50px;
+    }
+
+    &:nth-child(3) {
+      margin-bottom: 10px;
+    }
+
+    &:nth-child(4) {
+      margin-bottom: 115px;
+    }
+
+    &:nth-child(5) {
+      margin-bottom: 55px;
+    }
+
+    &:nth-child(6) {
+      margin-bottom: 180px;
+    }
+  }
+
+  &__code-subtitle {
+    color: $color-white;
+  }
+
+  &__code-text {
+    color: $color-violet--light;
+  }
+}

@@ -1,0 +1,20 @@
+.section-pricing {
+  position: relative;
+
+  padding-top: 15%;
+
+  background: $color-grey;
+
+  &:after {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+
+    width: 400px;
+    height: 196px;
+    content: "";
+
+    background: image-url("vawes-white.svg") no-repeat right bottom;
+    background-size: contain;
+  }
+}

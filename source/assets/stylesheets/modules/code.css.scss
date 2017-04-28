@@ -1,0 +1,37 @@
+.code {
+  margin: 0;
+  padding: 20px 0;
+
+  color: $color-grey--dark;
+
+  overflow: hidden;
+  line-height: 1.3125rem;
+
+  &__row {
+    display: block;
+    padding: 2px 15px;
+    padding-right: 80px;
+
+    font-size: 0.8125rem;
+
+    &--blue {
+      background: $code-blue;
+      color: darken($code-blue, 20%);
+    }
+
+    &--pink {
+      background: $code-pink;
+      color: darken($code-pink, 20%);
+    }
+
+    &--violet {
+      background: $code-violet;
+      color: darken($code-violet, 20%);
+    }
+
+    &--violet-light {
+      background: $code-violet--light;
+      color: darken($code-violet--light, 20%);
+    }
+  }
+}

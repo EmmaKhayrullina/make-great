@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171" height="103" viewBox="0 0 171 103">
+    <defs>
+        <path id="a" d="M91 0h8a8 8 0 0 1 8 8.005V44.88c0 1.104.623 2.637 1.393 3.426l2.214 2.268c.77.788.78 2.09.04 2.89l-2.294 2.482c-.747.809-1.353 2.354-1.353 3.467v35.595c0 4.414-3.59 7.993-8 7.993h-8"/>
+        <mask id="b" width="20.193" height="103" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(25.495 26.703)">
+            <rect width="51.972" height="11.635" fill="#CDD8DC" rx="5.818"/>
+            <ellipse cx="59.341" cy="5.818" fill="#8EB0C2" rx="5.818" ry="5.818"/>
+        </g>
+        <g transform="translate(25.495 77.692)">
+            <rect width="51.972" height="11.635" fill="#CDD8DC" rx="5.818"/>
+            <ellipse cx="59.341" cy="5.818" fill="#8EB0C2" rx="5.818" ry="5.818"/>
+        </g>
+        <ellipse cx="5.818" cy="5.818" fill="#FFCF6E" rx="5.818" ry="5.818" transform="translate(0 10)"/>
+        <rect width="65.934" height="11.635" fill="#E7EEF5" rx="5.818" transform="translate(13.187 10)"/>
+        <g>
+            <ellipse cx="5.818" cy="5.818" fill="#FFCF6E" rx="5.818" ry="5.818" transform="translate(0 43.846)"/>
+            <rect width="65.934" height="11.635" fill="#E7EEF5" rx="5.818" transform="translate(13.187 43.846)"/>
+        </g>
+        <g>
+            <ellipse cx="5.818" cy="5.818" fill="#FFCF6E" rx="5.818" ry="5.818" transform="translate(0 60.989)"/>
+            <rect width="65.934" height="11.635" fill="#E7EEF5" rx="5.818" transform="translate(13.187 60.989)"/>
+        </g>
+        <g fill="#00A2F7" transform="translate(127 33)">
+            <rect width="43.5" height="5.8" rx="2.9"/>
+            <rect width="43.5" height="5.8" y="14" rx="2.9"/>
+            <path d="M0 31.9C0 30.298 1.3 29 2.907 29h18.686a2.905 2.905 0 0 1 2.907 2.9c0 1.602-1.3 2.9-2.907 2.9H2.907A2.905 2.905 0 0 1 0 31.9z"/>
+        </g>
+        <use stroke="#D5E1E8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" mask="url(#b)" xlink:href="#a"/>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="196" viewBox="0 0 400 196">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="140" height="14" x="279" y="84" fill="#FFF" rx="7"/>
+        <rect width="55" height="14" y="56" fill="#FFF" rx="7"/>
+        <rect width="170" height="14" x="63" y="56" fill="#FFF" rx="7"/>
+        <rect width="183" height="14" x="103" y="28" fill="#FFF" rx="7"/>
+        <rect width="72" height="14" x="142" fill="#FFF" rx="7"/>
+        <rect width="386" height="14" x="37" y="112" fill="#FFF" rx="7"/>
+        <rect width="24" height="14" x="92" y="84" fill="#FFF" rx="7"/>
+        <rect width="24" height="14" x="222" fill="#FFF" rx="7"/>
+        <rect width="147" height="14" x="124" y="84" fill="#FFF" rx="7"/>
+        <rect width="24" height="14" x="176" y="154" fill="#F6F9FC" rx="7"/>
+        <rect width="218" height="14" x="208" y="154" fill="#F6F9FC" rx="7"/>
+        <rect width="96" height="14" x="236" y="182" fill="#F6F9FC" rx="7"/>
+        <path fill="#FFF" d="M290 126h22a7 7 0 0 0 0 14h-22a7 7 0 0 0 0-14zM59 126h42a7 7 0 0 0 0 14H59a7 7 0 0 0 0-14z"/>
+        <path fill="#F6F9FC" d="M322 140h22a7 7 0 0 0 0 14h-22a7 7 0 0 0 0-14zM250 168h42a7 7 0 0 0 0 14h-42a7 7 0 0 0 0-14zM150 112h22a7 7 0 0 0 0 14h-22a7 7 0 0 0 0-14z"/>
+        <path fill="#FFF" d="M199 98h52a7 7 0 0 0 0 14h-52a7 7 0 0 0 0-14zM173 42h42a7 7 0 0 0 0 14h-42a7 7 0 0 0 0-14zM138 70h22a7 7 0 0 0 0 14h-22a7 7 0 0 0 0-14z"/>
+    </g>
+</svg>
